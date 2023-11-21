@@ -1,0 +1,18 @@
+;Enunciado/Objetivo
+;Construir un programa que lea un número de dos dígitos y muestre la suma de los dos dígitos
+;
+;Análisis Semántico
+;45 = 4 + 5 = 9
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele el los dos dígitos por separado a n - 3. Calcule ud + pud
+;S: Suma
+;
+;Código
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (display "La suma de los dos dígitos de su # es: ")
+  (display (+ (remainder n 10) (remainder (quotient n 10) 10)))
+)

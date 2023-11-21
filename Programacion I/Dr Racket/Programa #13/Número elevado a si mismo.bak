@@ -1,0 +1,21 @@
+;Enunciado/Objetivo
+;Construir un programa que calcule la potencia de un número elevado a si mismo
+;
+;Analisis semántico
+;Tabla de multiplicar = resultado n*1, n*2... n*10
+;
+;Analisis EPS
+;E: n
+;P: 1. Lea n - 2. Calcule n*1, n*2... n*10
+;S: Tabla
+;
+;Código
+(define (tabla n = 3)
+  (* n mtp)
+)
+(define (interfaz n mtp)
+  (display "Inserte su número ")
+  (set! n(read))
+  (newline)
+  (display "La tabla de multiplicación de su número es: ")
+)

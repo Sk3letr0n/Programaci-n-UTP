@@ -1,0 +1,21 @@
+;Enunciado/Objetivo
+;Construir un programa que lea un número entero y muestre la tabla de multiplicar de su ultimo dígito
+;
+;Análisis Semántico
+;45 = 4 + 5 = 9
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele el último dígito a n - 3. Calcule la tabla de multiplicar de este dígito
+;S: Suma
+;
+;Código
+(define (suma n)
+  (remainder n 10)
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (display "La suma de los dos dígitos de su # es: ")
+  (display (suma (abs n)))
+)

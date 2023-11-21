@@ -1,0 +1,23 @@
+;Enunciado/Objetivo
+;Construir un programa que lea 3 números enteros y calcule el promedio de los últimos dígitos de cada número
+;
+;Análisis Semántico
+;523 = 3    25 = 5
+;3 + 5 + 7 = 15
+;
+;Análisis EPS
+;E: a b c
+;P: 1. Lea a - 2. Saquele el ultimo dígito - 3. Lea b - 4. Saquele el ultimo dígito - 5. Lea c - 6. Saquele el ultimo dígito - 7. Calcule ud1 + ud2 + ud3
+;S: Multiplicación
+;
+;Código
+(define (multi n)
+  (* (remainder (quotient (quotient n 10) 10) 10) (remainder (quotient n 10) 10) (remainder n 10) )
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (newline)
+  (display "La multiplicación de los tres dígitos de su # es: ")
+  (display (multi (abs n)))
+)

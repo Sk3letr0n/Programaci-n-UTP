@@ -1,0 +1,25 @@
+;Enunciado/Objetivo
+;Construir un programa que calcule el cociente de dos números
+;
+;Analisis semántico
+;Cociente = resultado de x/y
+;
+;Analisis EPS
+;E: n
+;P: 1. Lea x - 2. Lea y - 3. Calcule x/y
+;S: Cociente
+;
+;Código
+(define (cociente x y)
+  (/ x y)
+)
+(define (interfaz x y)
+  (display "Ingrese el primer número ")
+  (set! x (read))
+  (newline)
+  (display "Ingrese el segundo número ")
+  (set! y (read))
+  (newline)
+  (display "El cociente de la división de esos dos números es: ")
+  (display (cociente x y))
+)   

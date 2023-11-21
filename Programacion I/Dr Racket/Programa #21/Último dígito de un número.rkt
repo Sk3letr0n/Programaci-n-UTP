@@ -1,0 +1,22 @@
+;Enunciado/Objetivo
+;Construir un programa que muestre el último dígito de un número
+;
+;Análisis Semántico
+;1936 = 6
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele el último dígito a n
+;S: Último dígito de n
+;
+;Código
+(define (ud n)
+  (remainder n 10)
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (newline)
+  (display "El último dígito de su # es: ")
+  (display (ud (abs n)))
+)

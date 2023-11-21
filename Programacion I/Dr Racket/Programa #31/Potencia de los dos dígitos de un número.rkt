@@ -1,0 +1,28 @@
+;Enunciado/Objetivo
+;Construir un programa que lea un número de 2 dígitos y que asuma que el ud es un exponente y el pud es una base y calcule la potencia
+;
+;Análisis Semántico
+;23 = 2^3 = 8
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele los dos dígitos por separado a n - 3. Calcule pud^ud
+;S: Potencia
+;
+;Código
+(define (potencia n)
+  (expt (remainder (quotient n 10) 10) (remainder n 10) )
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (newline)
+  (display "La base de su # es: ")
+  (display (remainder (quotient n 10) 10))
+  (newline)
+  (display "El exponente de su # es: ")
+  (display (remainder n 10))
+  (newline)
+  (display "La potencia de los dos dígitos de su # es: ")
+  (display (potencia(abs n)))
+)

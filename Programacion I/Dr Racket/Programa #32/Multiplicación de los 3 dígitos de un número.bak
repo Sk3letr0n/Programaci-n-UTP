@@ -1,0 +1,22 @@
+;Enunciado/Objetivo
+;Construir un programa que lea un número de 3 dígitos y muestre la multiplicación de estos tres dígitos
+;
+;Análisis Semántico
+;924 = 9 * 2 * 4 = 78
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele los tres dígitos por separado a n - 3. Calcule apud*pud*ud
+;S: Multiplicación
+;
+;Código
+(define (multi n)
+  (* (remainder (quotient (quotient n 10) 10) 10) (remainder (quotient n 10) 10) (remainder n 10) )
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (newline)
+  (display "La multiplicación de los tres dígitos de su # es: ")
+  (display (multi (abs n)))
+)

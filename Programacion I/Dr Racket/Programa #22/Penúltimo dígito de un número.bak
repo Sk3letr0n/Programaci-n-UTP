@@ -1,0 +1,21 @@
+;Enunciado/Objetivo
+;Construir un programa que lea un número entero y muestre su penúltimo dígito
+;
+;Análisis Semántico
+;1936 = 3
+;
+;Análisis EPS
+;E: n
+;P: 1. Lea n - 2. Saquele el penúltimo dígito a n
+;S: Penúltimo dígito de n
+;
+;Código
+(define (ud n)
+  (remainder n 10)
+)
+(define (interfaz n)
+  (display "Dígite el #: ")
+  (set! n(read))
+  (display "El último dígito de su # es: ")
+  (display (ud (abs n)))
+)

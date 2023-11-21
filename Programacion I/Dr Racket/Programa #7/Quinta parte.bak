@@ -1,0 +1,22 @@
+;Enunciado/Objetivo
+;Construir un programa que calcule la quinta parte de un número
+;
+;Analisis semántico
+;Quinta = resultado de n/5
+;
+;Analisis EPS
+;E: n
+;P: 1. Lea n - 2. Calcule n/5
+;S: Tercera
+;
+;Código
+(define (quinta n)
+  (/ n 5)
+)
+(define (interfaz n)
+  (display "Ingrese un número ")
+  (set! n (read))
+  (newline)
+  (display "La quinta parte de ese número es: ")
+  (display (quinta n))
+)   

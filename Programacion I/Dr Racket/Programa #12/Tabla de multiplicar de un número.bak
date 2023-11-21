@@ -1,0 +1,28 @@
+;Enunciado/Objetivo
+;Construir un programa que calcule la tabla de multiplicar de un número
+;
+;Analisis semántico
+;Tabla de multiplicar = resultado n*1, n*2... n*10
+;
+;Analisis EPS
+;E: n
+;P: 1. Lea n - 2. Calcule n*1, n*2... n*10
+;S: Tabla
+;
+;Código
+(define (tabla r s t)
+  (* r s t)
+)
+(define (interfaz r s t)
+  (display "Ingrese el primer número ")
+  (set! r (read))
+  (newline)
+  (display "Ingrese el segundo número ")
+  (set! s (read))
+  (newline)
+  (display "Ingrese el tercer número ")
+  (set! t (read))
+  (newline)
+  (display "La multiplicación de los tres números es: ")
+  (display (multiplicación r s t))
+)   
