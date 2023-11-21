@@ -1,0 +1,26 @@
+#|
+Enunciado/Objetivo:
+Construir un prog que escriba n veces su nombre, para un valor de n leído
+
+Análisis semántico:
+4 = Steven Grisales López Steven Grisales López Steven Grisales López Steven Grisales López
+
+Análisis EPS:
+E: name, n
+P: 1. Leer n  -  2. Leer name  -  3. Escribir name n veces
+S: Su nombre n veces.
+|#
+;Código
+
+
+(define (int n m)
+  (display "Ingrese un número ")(newline)
+  (set! n  (read))
+  (display "Ingrese el segundo número ")(newline)
+  (set! m  (read))
+  (if (> n m)
+      (ciclo1 m n)
+      (ciclo2 m n)
+  )
+)
+(int 1 2)

@@ -1,0 +1,54 @@
+#|Enunciado/Objetivo
+Leer dos números y mostrar todos los números terminados en 4 comprendidos entre ellos.
+
+Análisis semántico
+24  80---> 24 34 44 54 64 74 
+50 70----> 50 54 64 
+-24 30 ---->-24 -14 -4 4 14 24
+
+Análisis EPS
+E: n m
+P: 1. Lea n - 2. Lea m. - 3. Calcule los números comprendidos entre n y m - 4. Muestre los que terminen en 4
+S: Los  numeros comprendidos n y m que terminen en 4
+|#
+
+(define(fx n m)
+  (if (= n (+ m 1))
+      (display " ")
+      (begin
+        (if (= (remainder (abs n) 10) 4)
+            (begin (display n) (display " "))
+            (display ""))
+        (fx (+ n 1) m)
+      )
+  )
+  (interfaz 1 1)
+) 
+
+(define(fx2 n m)
+  (if (= (+ n 1)  m)
+      (display " ")
+      (begin
+        (if (= (remainder (abs m) 10) 4)
+            (begin (display m)(display " "))
+            (display ""))
+        (fx2 n (+ m 1))
+        )
+  )
+)
+
+(define(int n m)
+  (newline)
+  (display "Digite el primer numero: ")
+  (newline)
+  (set! n (read))
+  (display "Digite el segundo numero: ")
+  (newline)
+  (set! m (read))
+  (newline)
+ (if(< n m)
+    (fx n m)
+    (fx2  n m)
+ )
+)
+(int 1 1)

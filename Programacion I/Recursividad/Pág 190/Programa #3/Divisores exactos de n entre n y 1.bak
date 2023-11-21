@@ -1,0 +1,12 @@
+#| Enunciado/Objetivo:
+Leer un número entero y mostrar todos los divisores exactos del número comprendidos entre 1 y el número leído
+
+Análisis semántico:
+Leer los divisores exactos de n entre n y 1,  4 = 4, 2
+
+Análisis EPS:
+Entrada: n
+Proceso: 1. Leer n - 2. Buscar los números comprendidos entre 1 y n - 3. Sacar los divisores exactos
+Salida: Divisores exactos
+|#
+(define (fx n)

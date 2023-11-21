@@ -1,0 +1,47 @@
+#| 3. Construir un prog que lea dos números enteros y muestre todos los pares comprendidos entre el menor y el mayor
+Análisis semántico: Leer los números pares entre n y m, ej: 15, 8--> 8 10 12 14 
+Análisis EPS: Entrada--> Leer un número  Proceso: Usar recursividad para llamar los números pares comprendidos entre n y m  Salida--> Mostrar los números
+|#
+;Código
+(define (Suman n)
+  (if (= 0 (remainder n 2))
+      (begin (display n) (display " "))
+      (display " ")
+  )  
+)
+(define (sumam m)
+  (if ( = 0 (remainder m 2))
+      (begin (display m)(display " "))
+      (display " ")
+  )
+)
+  
+(define (ciclo1 m n)
+  (if  (= m n)
+       (sumam m)
+       (begin (suman n)
+              (ciclo1 m (- n 1))
+       )     
+  )
+)
+
+(define (ciclo2 m n)
+  (if  (= n m)
+        (suman n)
+        (begin (sumam m)  
+           (ciclo2 (- m 1) n)        
+        )     
+  )
+)
+
+(define (int n m)
+  (display "Ingrese un número ")(newline)
+  (set! n  (read))
+  (display "Ingrese el segundo número ")(newline)
+  (set! m  (read))
+  (if (> n m)
+      (ciclo1 m n)
+      (ciclo2 m n)
+  )
+)
+(int 1 2)

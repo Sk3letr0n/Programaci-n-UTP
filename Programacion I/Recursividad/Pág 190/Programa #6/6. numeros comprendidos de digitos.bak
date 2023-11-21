@@ -1,0 +1,85 @@
+;enunciado: 6. Leer un número entero de tres dígitos y
+;mostrar todos los enteros comprendidos entre 1 y cada uno de los dígitos.
+;analisis semantico:
+; 624----> 1 2 3 4 5 6 --- 1 2 --- 1 2 3 4  
+; 598----> 1 2 3 4 5---- 1 2 3 4 5 6 7 8 9--- 1 2 3 4 5 6 7 8  
+; -946----> 1 0 -1 -2 -3 -4 -5 -6 -7 -8 -9----- 1 0 -1 -2 -3 -4 ---- 1 0 -1....-6
+; analisis eps
+;       e---> n 
+;       p---> 1. lea n 
+;             2. calcule si n es de tres digitos
+;             3. si es verdadero, calcule los numeros comprendidos del 1 hasta
+;                cada digito de n
+;             4. si es falso, mostrar los digitos deben ser de tres digitos
+;       s---> si es verdadero, los numeros comprendidos del 1 hast cada digito de n
+;             si es falso, los digitos deben ser de tres digitos
+
+
+ (define (muestra n)
+  (newline)
+  (display "los numeros comprendidos del 1 hasta el digito ")
+  (display n) (display " del numero ingresado son:"))
+;------------------------------------////////////////////////-------
+;para cuando el numero es negativo 
+
+(define (calcula_1nega m cont)
+  (if (= cont m)
+      (display cont)
+      (begin
+        (display cont)
+        (display " ")
+        (calcula_1nega m (- cont 1)))))
+
+(define (calculanega n)
+  (if (= (quotient n 10) 0)
+      (begin
+        (muestra n)
+        (newline)
+      (calcula_1nega (remainder n 10) 1))
+      (begin
+        (muestra (remainder n 10))
+        (newline)
+        (calcula_1nega (remainder n 10) 1)
+        (calculanega (quotient n 10)))))
+
+;----------------//////_--------------------
+;para cuando el numero es positivo
+(define (calcula_1 m cont)
+  (if (= cont m)
+      (display cont)
+      (begin
+        (display cont)
+        (display " ")
+        (calcula_1 m (+ cont 1)))))
+
+(define (calcula n)
+  (if (= (quotient n 10) 0)
+      (begin
+        (muestra n)
+        (newline)
+      (calcula_1 (remainder n 10) 1))
+      (begin
+        (muestra (remainder n 10))
+        (newline)
+        (calcula_1 (remainder n 10) 1)
+        (calcula (quotient n 10)))))
+;----------------------------------------////////////////----------------
+(define (poone n)
+  (if (and (> (abs n) 99)(< (abs n) 1000))
+           (if (> n 0)
+               1
+               0)
+      (begin(display "el numero debe ser de 3 digitos")(interfaz 1))
+      ))
+
+(define (interfaz n)
+  (newline)
+  (display "digite un numero")
+  (newline)
+  (set! n (read))
+  (if (= (poone n) 1)
+      (calcula n)
+      (calculanega n)
+      ))
+(interfaz 1)
+ 
