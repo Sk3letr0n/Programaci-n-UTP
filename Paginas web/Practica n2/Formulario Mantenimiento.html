@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulario de ingreso de una PC a una empresa de mantenimiento</title>
+  </head>
+  <body style="background-color: teal">
+    <H1>Manejo de formulario</H1>
+    <H2>Autor: Steven Grisales López</H2>
+    <H3>Fecha: 19/07/2021</H3>
+    <form id="formularioRegistro" name="formularioRegistro" style="background-color: gold">
+      <fieldset>
+        <legend>DATOS DEL CLIENTE</legend>
+        <label>Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <label>Apellidos:</label>
+        <input type="text" id="apellido" name="apellido">
+        <label>Dirección:</label>
+        <input type="text" id="direccion" name="direccion">
+        <br>
+        <br>
+        <label>Teléfono:</label>
+        <input type="number" id="telefono" name="telefono">
+        <label>Cédula:</label>
+        <input type="number" id="cedula" name="cedula">
+        <label>Correo:</label>
+        <input type="text" id="correo" name="correo">
+        <br>
+        <br>
+        <label>Sexo:</label>
+        <select id="sexo" name="sexo">
+          <option value="">Femenino</option>
+          <option value="">Masculino</option>
+          <option value="">Otro</option>
+        </select>
+        <br>
+        <br>
+        <button type="button">Guardar</button>
+        <button type="button">Salir</button>
+      </fieldset>
+      <fieldset>
+        <legend>DATOS DEL PC</legend>
+        <label>Marca del fabricante:</label>
+        <select id="marca" name="marca">
+          <option value="">Lenovo</option>
+          <option value="">HP</option>
+          <option value="">Apple</option>
+          <option value="">Alienware</option>
+          <option value="">Toshiba</option>
+          <option value="">Dell</option>
+          <option value="">Asus</option>
+          <option value="">Otra marca</option>
+        </select>
+        <label>Sistema Operativo:</label>
+        <select id="sistema" name="sistema">
+          <option value="">Windows</option>
+          <option value="">Mac</option>
+          <option value="">Linux</option>
+          <option value="">Otro</option>
+        </select>
+        <br>
+        <br>
+        <label>Tarjeta Gráfica</label>
+        <select id="Tg" name="Tg">
+          <option value="">GTX 750 ti</option>
+          <option value="">GTX 1050 ti</option>
+          <option value="">GTX 1650 super</option>
+          <option value="">RTX 2060</option>
+          <option value="">RTX 2080</option>
+          <option value="">RTX 3080</option>
+          <option value="">RTX 3090</option>
+          <option value="">Otra marca</option>
+        </select>
+        <label>Procesador</label>
+        <select id="procesador" name="procesador">
+          <option value="">i5-10600</option>
+          <option value="">Ryzen 5 5600X</option>
+          <option value="">i7-10700K</option>
+          <option value="">Ryzen 7 3700X</option>
+          <option value="">i9-10900K</option>
+          <option value="">Ryzen 9 3950X</option>
+          <option value="">Otra marca</option>
+        </select>
+        <br>
+        <br>
+        <label>Disco Duro</label><br>
+        <INPUT type="checkbox">
+        <label>No tiene</label><br>
+        <INPUT type="checkbox">
+        <label>256GB</label><br>
+        <INPUT type="checkbox">
+        <label>512GB</label><br>
+        <INPUT type="checkbox">
+        <label>1TB</label><br>
+        <INPUT type="checkbox">
+        <label>Mayor</label>
+        <br>
+        <br>
+        <label>Memoria RAM</label><br>
+        <input type="radio" id="2" name="ram" value="2">
+        <label for="2">2GB</label><br>
+        <input type="radio" id="4" name="ram" value="4">
+        <label for="4">4GB</label><br>
+        <input type="radio" id="8" name="ram" value="8">
+        <label for="8">8GB</label><br>
+        <input type="radio" id="16" name="ram" value="16">
+        <label for="16">16GB</label><br>
+        <input type="radio" id="32" name="ram" value="32">
+        <label for="32">32GB</label><br>
+        <input type="radio" id="64" name="ram" value="64">
+        <label for="64">64GB</label>
+        <br>
+        <br>
+        <label>Describa su problema:</label>
+        <input type="text" id="problema" name="problema">
+        <br>
+        <br>
+        <button type="button">Guardar</button>
+        <button type="button">Salir</button>
+      </fieldset>
+    </form>
+  </body>
+</html>

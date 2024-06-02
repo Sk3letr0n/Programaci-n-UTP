@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Practica 1</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <h1>Página que simula una calculadora</h1>
+        <h2>Hecho por: Steven Grisales, el 26/10/2021</h2>
+        <div class="container">
+            <div class="div-text">
+                <p>
+                    Utilice la calculadora
+                </p>
+            </div>
+        </div>
+        <table border="1">
+            <tr>
+                <td colspan="4">
+                    <input type="text" placeholder="0" id="resultado">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="button"onclick="calcular('borrar')">C&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button></td>
+                <td>M</td>
+                <td><button type="button" onclick="calcular('÷')">÷</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="mostrar('7')">7</button></td>
+                <td><button type="button" onclick="mostrar('8')">8</button></td>
+                <td><button type="button" onclick="mostrar('9')">9</button></td>
+                <td><button type="button" onclick="calcular('x')">x</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="mostrar('4')">4</button></td>
+                <td><button type="button" onclick="mostrar('5')">5</button></td>
+                <td><button type="button" onclick="mostrar('6')">6</button></td>
+                <td><button type="button" onclick="calcular('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="mostrar('1')">1</button></td>
+                <td><button type="button" onclick="mostrar('2')">2</button></td>
+                <td><button type="button" onclick="mostrar('3')">3</button></td>
+                <td><button type="button" onclick="calcular('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button type="button" onclick="calcular('+/-')">+/-</button></td>
+                <td><button type="button" onclick="mostrar('0')">0</button></td>
+                <td><button type="button" onclick="mostrar(',')">,</button></td>
+                <td><button type="button" onclick="calcular('=')">=</button></td>
+            </tr>
+        </table>
+    </body>
+</html>

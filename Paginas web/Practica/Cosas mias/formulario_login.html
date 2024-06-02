@@ -1,0 +1,50 @@
+<HTML>
+	<HEAD>
+		<TITLE>Formulario de registro</TITLE>
+		<link rel="stylesheet" type="text/css" href="estilos.css" >
+	</HEAD>
+	<BODY>
+		<H1>Formulario de login</H1>
+		<H2>Autor: Steven Grisales López </H2>
+		<H3>Fecha: 27/04/2021</H3>
+		<FORM id="loginForm">
+			<TABLE>
+				<TR>
+					<TD colspan="4">
+						<IMG id="image" src="perfil.jpg">
+					</TD>
+				</TR>
+				<TR>
+					<TD>Nombre</TD>
+					<TD><INPUT type="text" id="name" name="name" placeholder="Nombre y apellido"></TD>
+				</TR>
+				<TR>
+					<TD>Correo electrónico</TD>
+					<TD><INPUT type="text" id="email" name="email" placeholder="ejemplo@correo.com"></TD>
+				</TR>
+				<TR>
+					<TD>Contraseña</TD>
+					<TD><INPUT type="text" id="password" name="password" placeholder="Contraseña"></TD>
+				</TR>
+				<TR>
+					<TD>Confirmar contraseña</TD>
+					<TD><INPUT type="text" id="confir" name="confir" placeholder="Contraseña"></TD>
+				</TR>
+				<TR>
+					<TD colspan="4" style="text-align: center">
+						<BUTTON type="button" onClick="mostrarMensaje()">Registrarse</BUTTON>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+		<SCRIPT>
+			function mostrarMensaje() {
+				if (document.getElementById("email").value == "griloven@gmail.com" && document.getElementById("password").value == "102931" && document.getElementById("name").value == "Steven Grisales" && document.getElementById("confir").value == "102931") {
+					alert("Datos válidos");
+				} else {
+					alert("Datos inválidos");
+				}			
+			}
+		</SCRIPT>
+	</BODY>
+</HTML>
