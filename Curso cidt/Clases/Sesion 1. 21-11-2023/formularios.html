@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> A
+    <meta name="keywords" content=""/> 
+    <meta name="description" content=""/> 
+    <meta name="author" content=""/> 
+    <title>PLANTILLA - FORMULARIOS</title> 
+    <link href="Images\Favicon\favicon.ico" rel="icon" type="image/x-icon" sizes="32x32"/>
+    <link href="Images\Favicon\favicon-16x16.png" rel="icon" type="image/png" size="16X16">
+    </head>
+
+    <body>
+        
+        <header id="Encabezado" style="border-style: groove; text-align: center; padding: 20px; color: chocolate;"> 
+            <h1>FORMULARIOS</h1>
+        </header>
+
+        <nav id="Menú_principal" style="border-style: solid; text-align: center;">
+            <a href="index.html">INICIO</a> 
+            <a href="tablas.html">TABLAS</a>
+            <a href="#">FORMULARIOS</a>
+            <a href="estilos.html">ESTILOS</a>
+        </nav>
+        
+        <!--Method="POST": Coge todo del formulario, lo guarda en un archivo y lo envia al action=""
+        Method="GET": Coge una linea de texto y lo pone sobre la ruta. (Cómo la busqueda de google en la URL).
+
+        Siempre intentar usar el método POST para que no se vea y que se use seguridad.
+
+        target es que quiero que aparezca cuando hago el envio.
+        blank es que recargue en otra página y parent sobre la misma página.
+
+        enctype: Forma de encriptamiento.
+
+        autocomplete: Autocompletado que guarda como un caché los datos rellenados.-->
+        <main id="Bloque_principal" style="border: solid;">
+            <section id="Sección_3" style="border-style: groove;">
+                <h2>Sección 3 (Formularios)</h2>
+                <form id="Formulario1" method="POST" action="#" target="_parent" enctype="application/x-www-form-urlencoded">
+                    
+                    <!--El for en un label en HTML es una forma de vincular un elemento label con un elemento de entrada como un input o un textarea. 
+                    De esta manera, al hacer clic en el texto del elemento label, el navegador seleccionará automáticamente el elemento de entrada correspondiente.
+                    Este enfoque mejora la accesibilidad y la usabilidad de los formularios al permitir que los usuarios hagan clic
+                    en las etiquetas para seleccionar y editar los campos de entrada.
+                    El atributo "for" en la etiqueta "label" se utiliza para vincular la "label" a un elemento "input" específico con un "id" coincidente. Cuando el usuario hace clic 
+                    en el texto dentro de la etiqueta "label", alterna el elemento "input" correspondiente.-->
+
+                    <label for="busqueda">Buscar Usuario </label> <!--Para este id.-->
+                    <input id="busqueda" type="search"> <!-- Se le coloca su input determinado.-->
+                    <br><br>
+
+                    <label for="nombre1">Primer Nombre </label>
+                    <input id="nombre1" type="text" required> <!--Es obligatorio su rellenamiento.-->
+                    <br><br>
+
+                    <label for="nombre2">Segundo Nombre </label>
+                    <input id="nombre2" type="text" autofocus> <!--Donde se para el cursor al recargar.-->
+                    <br><br>
+
+                    <label for="apellido">Apellido </label>
+                    <input id="apellido" type="text" minlength="5" max="30"> <!--Tiene un mínimo y máximo de caracteres.-->
+                    <br><br>
+                    
+                    <label for="apodo">Nickname </label>
+                    <input id="apodo" type="text" value="Steby" disabled> <!--El valor que tiene predeterminado pero no se puede cambiar.-->
+                    <br><br>
+
+                    <label for="apodo2">Nickname 2</label>
+                    <input id="apodo2" type="text" hidden> <!--Esta escondido.-->
+                    <br><br>
+
+                    <label for="apodo3">Nickname 3</label>
+                    <input id="apodo3" type="text" value="Esto es solo para leer" readonly> <!--Solo se puede leer el valor del texto.-->
+                    <br><br>
+
+                    <label for="codigo_postal">Código Postal</label>
+                    <input id="codigo_postal" type="text" pattern="[0-9]{6}" title="El código postal es de 6 cifras"> <!--Tiene un patrón de 0-9 y un límite de 6 digitos.-->
+                    <br><br>
+
+                    <label for="edad">Edad </label>
+                    <input id="edad" type="number" min="18" max="100"> <!--Mínimo y máximo.-->
+                    <br><br>
+
+                    <label for="experiencia">Años de Experiencia </label>
+                    <input id="experiencia" type="number" min="0" max="20" step="2"> <!--Límite de 0 a 20 con salto de 2 en 2.-->
+                    <br><br>
+
+                    <label for="correo">E-mail </label>
+                    <!--Al ser tipo email solo acepta respuestas que contengan la @-->
+                    <input id="correo" type="email" multiple> <!--Permite ingresar varios valores, en este caso correos-->
+                    <br><br>
+
+                    <label for="tel">Teléfono </label>
+                    <input id="tel" type="tel"> <!--Son elementos de texto pero el navegador los identifica como su tipo tel.-->
+                    <br><br>
+
+                    <label for="web">Dirección Web </label>
+                    <input id="web" type="url"> <!--Son elementos de texto pero el navegador los identifica como su tipo url.-->
+                    <br><br>
+                    
+                    <label for="pass">Contraseña </label>
+                    <input id="pass" type="password"> <!--Es un tipo texto pero enmascara los caracteres.-->
+                    <br><br>
+                    <!-- Para mostrar los caracteres de la contraseña. Después se mostrará el código en Js.-->
+                    <!-- <input type="checkbox" id="togglePassword"> Mostrar contraseña -->
+
+
+                    <label for="fecha">Fecha Nacimiento </label><br>
+                    <input id="fecha" type="date" value="2021-08-24"> <!--Tipo fecha con su formato año-mes-día.-->
+                    <br><br>
+                    
+                    <label for="fecha_hora">Fecha y Hora </label><br>
+                    <input id="fecha_hora" type="datetime-local" value="2021-12-31T12:59:59"> <!--Lo mismo pero ahora con tiempo, año-mes-día y Hora en formato 12h.-->
+                    <br><br>
+                    
+                    <label for="semana">Semana del año </label><br>
+                    <input id="semana" type="week" value="2021-W40"> <!--Son referentes al tiempo, semana del año en este caso.-->
+                    <br><br>
+                    
+                    <label for="hora">Hora de aplicación </label><br>
+                    <input id="hora" type="time" value="12:59:59"> <!--Son referentes al tiempo, horas en este caso.-->
+                    <br><br>
+                    
+                    <label for="mes">Mes del año </label><br>
+                    <input id="mes" type="month" value="2021-09"> <!--Son referentes al tiempo, mes del año en este caso.-->
+                    <br><br>
+                    
+                    <!--Label es lo que se muestra, type es el tipo de formulario, 
+                        name es el identificador de un grupo y me lo guarda, y
+                        value el valor de cada opción de este grupo.-->
+                    <label>Seleccione la ciudad de residencia</label><br>
+                    <!--Mucho cuidado con los name ya que se podría seleccionar una o varias en este tipo "radio".-->
+                    <!--Colocar el name que agrupa a los valores y el tipo radio es el tipo de selección única.-->
+                    <input id="ciudad1" type="radio" name="ciudad" value="Pereira"> 
+                    <label for="ciudad1"> Pereira </label><br> <!--Muestra el valor asignado en el id.-->
+                    <input id="ciudad2" type="radio" name="ciudad" value="Dosquebradas" checked> <!--Checked selecciona automaticamente por defecto este valor.-->
+                    <label for="ciudad2"> Dosquebradas </label><br>
+                    <input id="ciudad3" type="radio" name="ciudad" value="La Virginia">
+                    <label for="ciudad3"> La Virginia </label><br>
+                    <input id="ciudad4" type="radio" name="ciudad" value="Santa Rosa">
+                    <label for="ciudad4"> Santa Rosa </label>
+                    <!--En este caso con Colombia se aplica lo que se mencionó al principio del enunciado.-->
+                    <!-- <input id="ciudad5" type="radio" name="pais" value="Colombia">
+                    <label for="ciudad5"> Colombia </label> -->
+                    <br><br>
+                    
+                    <p>Seleccione los medios de transporte que más utiliza</p>
+                    <!--Colocar el name que agrupa a los valores y el tipo checkbox es el tipo de selección única(Funciona de la misma forma que el radio).-->
+                    <input id="mediot1" type="checkbox" name="transporte" value="SITM">
+                    <label for="mediot1"> SITM </label><br>
+                    <input id="mediot2" type="checkbox" name="transporte" value="Taxi">
+                    <label for="mediot2"> Taxi </label><br>
+                    <input id="mediot3" type="checkbox" name="transporte" value="Auto Propio">
+                    <label for="mediot3"> Auto Propio </label><br>
+                    <input id="mediot4" type="checkbox" name="transporte" value="Moto Propia" checked> <!--Mismo funcionamiento el checked-->
+                    <label for="mediot4"> Moto Propia </label>
+                    <br><br>
+                    
+                    <label for="colores"> Color  </label>
+                    <select id="colores"> <!--Select es un desplegable que deja elegir una sola opción (inclusive la default) 
+                                        y el id identifica que es el tipo de cosas que voy a seleccionar. -->
+                        <option value="" selected>Seleccione un color</option> <!--Esta vacia ya que es una opción no válida y que no necesita seleccionar nada
+                        y el selected es el por default que aparece-->
+                        <!--Las opciones varias-->
+                        <option value="Azul">Azul</option>
+                        <option value="Rojo">Rojo</option>
+                        <option value="Negro">Negro</option>
+                    </select>
+                    <br><br>
+                    
+                    <datalist id="listatelefonos"> <!--Se puede escoger una de las opciones que encuentre o lo que yo quiera ingresar.-->
+                        <!--Las opciones que quiero que aparezcan.-->
+                        <!--El label muestra de que es abajo del número en las opciones.-->
+                        <option value="3103698789" label="Casa">
+                        <option value="3123788726" label="Oficina">
+                    </datalist>
+                    <!--El label que muestra si quiero ingresar un teléfono.-->
+                    <label for="telefono">Teléfono </label>
+                    <!--En esta parte se puede ingresar el texto de tipo teléfono que yo desee.-->
+                    <input id="telefono" type="tel" list="listatelefonos"> <!--La lista debe ser el id del datalist.-->
+                    <br><br>
+                    
+                    <label for="color">Color </label>
+                    <input id="color" type="color" value="#99BB00"> <!--Muestra la ruedita de los colores y el valor escojo el color que quiero de esa manera
+                    NumNumLetraLetraNumNum, si no se escoge toma por defecto el blanco.-->
+                    <br><br>
+                    
+                    <label for="satisfaccion">Nivel de Satisfacción </label>
+                    <input id="satisfaccion" type="range" min="0" max="5" value="3"> <!--Tiene una linea con un rango que son las posiciones o paradas en las que se
+                    puede mover la línea, el value es donde va a estar parado por defecto. -->
+                    <br><br>
+
+                    <label for="comentario">Comentarios </label><br>
+                    <!--Textarea(sigue siendo input) es un contenedor que contiene las filas y columnas que va a mostrar(caracteres que caben).-->
+                    <!--El placeholder es lo que aparece de fondo que desaparece(como marca de agua) y spellcheck hace correción ortográfica
+                    de acuerdo al idioma que esta configurado en la página la cual busca en el navegador si coincide con el diccionario de esta.-->
+                    <textarea id="comentario" rows="6" cols="60" placeholder="Escriba un comentario" spellcheck="true"></textarea>
+                    <br><br>
+
+                    <!--Button funciona como un evento-->
+                    <!--Reset limpia todo lo que haya en el formulario, reinicia todo-->
+                    <button id="limpiar" type="reset" style="border-style: double; background-color: cornflowerblue;">LIMPIAR</button>
+                    <br><br>
+                    
+                    <!--Submit envia todo como un archivo con un encriptado suave a traves del POST o GET a donde le hayamos dicho que se envie.-->
+                    <!--onclick="alert" es lo que sale cuando se aprieta el botón(ventanita de texto).-->
+                    <button id="enviar" type="submit" style="border-style: double; background-color: lightskyblue" onclick="alert('ENVIANDO DATOS')">ENVIAR</button>
+                    <br><br>
+                    
+                    <!--Imagen del botón(aspecto).-->
+                    <!--Type image es un input que recibe una imagen como entrada, para agarrar bien, click derecho a la imagen y copiar ruta relativa(en visual).
+                    sin embargo hay que copiar la ruta estando en la carpeta principal, por ejemplo en este caso Mi sitio Web, pero esta no se tiene en cuenta.-->
+                    <label for="boton">Botón </label><br>
+                    <!--src es la path de la imagen, width y height el tamaño de la imagen (la mejor unidad es px, se puede trabajar con %) y el evento de alert explicado anteriormente.-->
+                    <input id="boton" type="image" src="Images\Img\Boton-50x50.png" width="50px" height="50px" onclick="alert('Este es el otro botón')">
+                    <br><br>
+                    
+                    <label></label>
+                </form>
+            
+            </section>
+            
+            <aside id="Lateral" style="border-style: groove;" >
+                <h2>ESTA ES LA SECCIÓN LATERAL</h2>
+                <nav id="Menú_vertical" style="border-style: groove;">
+                    <ul>
+                        <li><a href="#">OPCIÓN A</a>
+                            <ul>
+                                <li><a href="#">OPCIÓN a</a></li>
+                                <li><a href="#">OPCIÓN b</a></li>
+                                <li><a href="#">OPCIÓN c</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">OPCIÓN B</a></li>
+                        <li><a href="#">OPCIÓN C</a></li>
+                    </ul>
+                    
+                    <details>
+                        <summary>OTRO MENÚ</summary>
+                        <p>
+                            <a href="#">OPCIÓN a</a><br>
+                            <a href="#">OPCIÓN b</a><br>
+                            <a href="#">OPCIÓN c</a>
+                        </p>
+                    </details>
+                </nav>
+            </aside>
+        
+        </main>
+
+        <footer id="Pie_de_página" style="border-style: groove; text-align: center;">
+            <h5>Este es el Pie de página &checkmark;</h5>
+            <address>Para contactar al siguiente correo</address>
+            <address><a href="mailto: xxxx@xxx. com">steven.grisales@utp.edu.co</a></address> 
+            <address><a href="tel: 0000000000">3116086466</a></address>
+            <small>&COPY; Derechos Reservados 2023</small> 
+        </footer>
+
+    </body>
+
+</html>

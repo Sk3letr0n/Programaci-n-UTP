@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="keywords" content=""/> 
+    <meta name="description" content=""/> 
+    <meta name="author" content=""/> 
+    <title>PÁGINA DE PRUEBA</title> 
+    <link href="Images\Favicon\favicon.ico" rel="icon" type="image/x-icon" sizes="32x32"/>
+    <link href="Stylesheets\grid.css" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <header id="Encabezado" style="border-style: groove; text-align: center; padding: 20px; color: brown;"> 
+            <h1>PÁGINA PRINCIPAL</h1>
+        </header>
+
+        <nav id="Menú_principal" style="border-style: solid; text-align: center;">
+            <a href="#">INICIO</a> 
+            <a href="tablas.html">TABLAS</a>
+            <a href="formularios.html">FORMULARIOS</a>
+            <a href="estilos.html">ESTILOS</a>
+        </nav>
+
+        <main id="Bloque_principal" style="border: solid;">
+            <section id="Sección_1" style="border-style: groove;"> <!--Secciones-->
+                <h2>Sección 1 (Contenido Principal)</h2>
+                <article id="Artículo_1" style="border-style: groove;"> <!--Articulos-->
+                    Artículo 1
+                </article>
+                <article id="Artículo_2" style="border-style: groove;">
+                    Artículo 2
+                </article>
+            </section>
+
+            <aside id="Lateral" style="border-style: groove;"> <!--Parte lateral-->
+                <h2>Esta es la Sección Lateral</h2>
+                <nav id="Menú_vertical" style="border-style: groove;">
+                    <ul> <!--Lista no ordenada (ul)-->
+                        <li><a href="#">OPCIÓN A</a></li> <!--Items de la lista(li)-->
+                            <ul>
+                                <li><a href="#">OPCIÓN a</a></li>
+                                <li><a href="#">OPCIÓN b</a></li>
+                                <li><a href="#">OPCIÓN c</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">OPCIÓN B</a></li>
+                        <li><a href="#">OPCIÓN C</a></li>
+                    </ul>
+
+                    <details> <!--Desplegable-->
+                        <summary>Otro Menú</summary> <!--Contene otros elementos-->
+                        <p> <!--Formato de párrafo-->
+                            <a href="#">Opción a</a><br> <!--Salto de línea (br)-->
+                            <a href="#">Opción b</a><br>
+                            <a href="#">Opción c</a>
+                        </p> 
+                    </details>
+                </nav> <!--Los menús van en los nav-->
+            </aside>
+        </main>
+
+        <footer id="Pie_de_página" style="border-style: groove; text-align: center;"> <!--Pie de página-->
+            <h5>Este es el Pie de página &checkmark;</h5>
+            <address>Para contactar al siguiente correo</address>
+            <address><a href="mailto: xxxx@xxx. com">steven.grisales@utp.edu.co</a></address> 
+            <address><a href="tel: 0000000000">3116086466</a></address>
+            <small>&COPY; Derechos Reservados 2023</small> 
+        </footer>
+
+    </body>
+
+</html>

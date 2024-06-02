@@ -1,0 +1,205 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-image: url(../Images/Background/fondo.jpg);
+    background-repeat: repeat;
+}
+
+.ContenedorGrid {  /*Desktop*/  /* Grilla para el diseño de la web */
+    width: 98%;    
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(5, auto);
+
+    grid-template-areas:    "H H H H"
+                            "N N N N" 
+                            "A M M M"
+                            "A M M M"
+                            "F F F F";  
+}
+
+header {
+    background-image: url(../Images/Background/fondo_header.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 1%;
+    border-style: outset;
+    text-align: center;
+    grid-area: H;
+}
+
+h1 {
+    display: inline;
+    font-style: italic; 
+    padding: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px red;
+}
+
+#icono1 {
+    width: 25px;
+    height: 25px;
+}
+
+#Menú {
+    background-image: url(../Images/Background/fondo_men.jpg);
+    border-style: hidden; 
+    font-size: larger;
+    padding: 2px;
+    text-align: center;
+    font-weight: bolder;
+    grid-area: N;
+
+}
+
+nav a {
+    color: darkgoldenrod;
+    padding: 4px;
+    text-align: center;
+}
+
+.ContenedorGridMain {
+    width: 100%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 80%, 20%);
+    grid-template-areas: "S1 S2";
+}
+
+main {
+    grid-area: M;
+}
+
+h2 {
+    text-align: center;
+    font-style: oblique;
+    color: rgb(218, 128, 12);
+    text-shadow: 5px 5px 5px rgb(19, 83, 219);
+}
+
+/*
+.ContenedorGridSec1{
+    width: 100%;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-rows: repeat(2) ;
+}
+*/
+
+#Sección1 {
+    background-image: url(../Images/Background/fondo1.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    grid-area: S1;
+}
+
+#articulo1 {
+    text-align: justify;
+    font-style: oblique;
+    color: ghostwhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+#articulo2 {
+    text-align: justify;
+    font-style: oblique;
+    color: rgb(22, 224, 207);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+#Sección2 {
+    background-image: url(../Images/Background/fondo2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    grid-area: S2;
+}
+
+#articulo3 {
+    text-align: justify;
+    font-style: oblique;
+    color: rgb(245, 240, 240);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+aside {
+    grid-area: A;
+}
+
+#Lateral {
+    background-image: url(../Images/Background/fondo_lat.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    text-align: justify;
+}
+
+#imagen1 {
+    width: 80%;
+    padding: 50px;
+}
+
+#link1 {
+    color: fuchsia;
+}
+
+#link2 {
+    color: rgb(250, 0, 75);
+}
+
+#texto {
+    text-align: justify;
+    font-style: oblique;
+    color: rgb(69, 201, 51);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+}
+
+footer {
+    clear: both;
+    border-style: outset; 
+    text-align: center;
+    font-style: italic;
+    background-image: url(../Images/Background/fondo_foot.jpg);
+    grid-area: F;
+}
+
+address a {
+    color:rgb(255, 255, 255)
+}
+
+/*** DISEÑO RESPONSIVE ***/
+
+@media screen and (max-width: 900px) and (min-width: 551px) { /*Tablet*/
+    .ContenedorGrid {        
+        grid-template-columns: repeat(3, 33.3%);
+        grid-template-rows: repeat(4, auto);
+
+        grid-template-areas:    "H H H"
+                                "N N N"
+                                "M M M"                                                                
+                                "A F F"; 
+    }
+}
+
+@media screen and (max-width: 550px) {  /*smartphone*/
+    .ContenedorGrid {        
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(5, auto);
+
+        grid-template-areas:    "H H"
+                                "N N"
+                                "M M"
+                                "A A"                                
+                                "F F"; 
+    }
+}

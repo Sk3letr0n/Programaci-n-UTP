@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> A
+    <meta name="keywords" content=""/> 
+    <meta name="description" content=""/> 
+    <meta name="author" content=""/> 
+    <title>PLANTILLA - TABLAS</title> 
+    <link href="Images\Favicon\favicon.ico" rel="icon" type="image/x-icon" sizes="32x32"/>
+    <link href="Images\Favicon\favicon-16x16.png" rel="icon" type="image/png" size="16X16">
+    </head>
+
+    <body>
+        
+        <header id="Encabezado" style="border-style: groove; text-align: center; padding: 20px; color: blueviolet;">
+            <h1>TABLAS</h1> 
+        </header>
+
+        <nav id="Menú_principal" style="border-style: solid; text-align: center;">
+            <a href="index.html">INICIO</a>
+            <a href="#">TABLAS</a>
+            <a href="formularios.html">FORMULARIOS</a>
+            <a href="estilos.html">ESTILOS</a>
+        </nav>
+
+        <main id="Bloque_principal" style="border: solid;">
+            <section id="Sección_2" style="border-style: groove;">
+                <h2>Sección 2 (Tablas)</h2>
+                <table style="border-style: ridge;">
+                    <!--Opcionales-->
+                    <colgroup> <!--Agrupar columnas por características-->
+                        <col style="background-color: rgb(128, 148, 202);">
+                    </colgroup>
+                    <caption>Título de la Tabla</caption> <!--Título de la tabla-->
+                    <!--Acaba lo opcional-->
+                    <thead><!--Encabezado de las Columnas-->
+                        <tr>
+                            <th></th>
+                            <th colspan="2">COL A</th> <!--Atributo que combina columnas-->
+                            <th>COL B</th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th>COL 1</th>
+                            <th>COL 2</th>
+                            <th>COL 3</th>
+                        </tr>
+                    </thead>
+                    <tbody><!--Cuerpo de la Tabla-->
+                        <tr>
+                            <td rowspan="2">FIL A</td> <!--Atributo que combina filas-->
+                            <td>Celda 11</td>
+                            <td>Celda 12</td>
+                            <td>Celda 13</td>
+                        </tr>
+                        <tr><!--Fila 2-->
+                            <!--Esta celda no se coloca porque en la fila anterior se colocó una que ocupa dos espacios-->
+                            <td>Celda 21</td>
+                            <td>Celda 22</td>
+                            <td>Celda 23</td>
+                        </tr>
+                        <tr> <!--Fila 3-->
+                            <td>FIL B</td>
+                            <td>Celda 31</td>
+                            <td>Celda 32</td>
+                            <td>Celda 33</td>
+                        </tr>
+                    </tbody>
+                    <tfoot><!--Pie de la Tabla-->
+                        <tr>
+                            <td colspan="4">Pie de tabla</td> <!--Agarra 4 columnas-->
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </main>
+
+        <footer id="Pie_de_página" style="border-style: groove; text-align: center;">
+            <h5>Este es el Pie de página &checkmark;</h5>
+            <address>Para contactar al siguiente correo</address>
+            <address><a href="mailto: xxxx@xxx. com">steven.grisales@utp.edu.co</a></address> 
+            <address><a href="tel: 0000000000">3116086466</a></address>
+            <small>&COPY; Derechos Reservados 2023</small> 
+        </footer>
+
+    </body>
+
+</html>

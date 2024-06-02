@@ -1,0 +1,3 @@
+C:\Users\<nombre de usuario>\AppData\Local\Google\Chrome\User Data\Default\IndexedDB
+
+archivos de este tipo: file__0.indexeddb.leveldb

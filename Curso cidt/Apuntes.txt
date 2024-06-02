@@ -1,0 +1,99 @@
+El término "index" proviene del inglés e implica algo como "inicio" o  "punto de partida". En el caso de los archivos HTML, el archivo llamado 
+"index.html" es el punto de entrada a un sitio web.
+
+Cuando un navegador web solicita un sitio web, por defecto solicita el archivo  "index.html". Este archivo puede contener enlaces a otros archivos HTML y 
+a recursos como imágenes y hojas de estilo.
+
+En resumen, el término "index" en el contexto de un archivo HTML se refiere al  archivo principal o punto de entrada de un sitio web.
+
+El código HTML anterior define una estructura básica de página web. A continuación, se explica cada parte:
+
+<!DOCTYPE html>: Define el tipo de documento que estamos utilizando.
+<html>: Es el elemento raíz de una página HTML. Todo el contenido de la página está dentro de las etiquetas de apertura y cierre <html>.
+<head>: Contiene información sobre el documento que no se muestra en el navegador. Esto incluye el título del documento, metadatos, y referencias a archivos CSS o JavaScript externos.
+<meta charset="UTF-8">: Establece la codificación de caracteres del documento. UTF-8 es una codificación compatible con la mayoría de los idiomas y sistemas.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Ajusta la visibilidad de la página en dispositivos móviles.
+
+<meta name="keywords" content="palabras clave">: Define palabras clave para describir el contenido de la página.
+
+<meta name="description" content="descripción del sitio web">: Proporciona una breve descripción del sitio web.
+
+<meta name="author" content="nombre del autor">: Especifica el autor del documento.
+
+<title>Título de la página</title>: Define el título de la página que se muestra en la pestaña del navegador.
+
+<body>: Contiene todo el contenido que se muestra en el navegador, como texto, imágenes y enlaces.
+El propósito de las etiquetas en <head> es proporcionar información adicional sobre el documento HTML que no se 
+muestra en el navegador. En cambio, las etiquetas en <body> son lo que realmente se ve en el navegador.
+
+El link href rel es una etiqueta HTML utilizada para vincular archivos externos como hojas de estilo, iconos, etc., 
+al documento HTML actual. La etiqueta <link> generalmente se coloca en el <head> del documento.
+
+Algunos atributos comunes utilizados en la etiqueta <link> son:
+
+href: Especifica la URL del archivo vinculado.
+
+rel: Indica la relación entre el documento HTML actual y el archivo vinculado. Por ejemplo, stylesheet para 
+hojas de estilo en cascada (CSS), icon para iconos, etc.
+
+type: Especifica el tipo MIME del archivo vinculado.
+
+sizes: Indica las dimensiones esperadas de los recursos de imagen. Esto es útil para informar al navegador sobre 
+el tamaño de los recursos de imagen, lo que permite que el navegador pueda descargar solo las imágenes necesarias para la pantalla del usuario.
+
+id: Es único y es lo que representa cada contenedor.
+
+style es bastante intuitivo, es el estilo del contenedor(Luego se usara css3 para modificar estas cosas).
+
+# -> Para que se recargue sola la página cuando no tengo una lista.
+
+El <header> es el elemento que representa el encabezado o cabecera de una sección o página. Por lo general, 
+contiene información sobre la sección como título, logotipo, etc.
+
+El <nav> es el elemento que representa una sección de navegación. Dentro de este elemento se pueden colocar enlaces 
+(<a>) que permiten a los usuarios navegar por la página o sitio web.
+
+El <main> es el elemento que representa el contenido principal de una página o sección. 
+Dentro de este elemento, podemos encontrar elementos como <section> y <aside>.
+
+La <section> es el elemento que representa una sección temática dentro de un documento o página. 
+Dentro de este elemento, se puede incluir contenido relacionado con el tema de la sección.
+
+El <aside> es el elemento que representa contenido que se considera secundario o aparte respecto al contenido principal de la página o sección. 
+Este contenido puede incluir anuncios, enlaces relacionados, etc.
+
+El <footer> es el elemento que representa el pie de página o final de una sección o página. 
+Dentro de este elemento, se puede incluir información adicional como dirección de correo electrónico, información de derechos de autor, etc.
+
+En HTML, existen varias entidades que nos permiten insertar símbolos o realizar ciertas funciones específicas. 
+Estas entidades siempre comienzan con la y comercial "&" y terminan con un punto y coma ";".
+
+&checkmarck: Es una entidad que representa el símbolo de check (marca de verificación) 
+en casillas de verificación (checkboxes) de formularios HTML.
+
+&copy: Representa el símbolo de copyright ©. 
+Se utiliza para indicar que se posee el derecho de autor sobre un trabajo.
+
+&mailto: No es una entidad en sí misma, sino un protocolo que permite establecer un enlace a una dirección de correo electrónico. 
+Al hacer clic en el enlace, se abrirá la aplicación de correo electrónico predeterminada con la dirección de correo electrónico ya insertada en el campo "Para".
+
+<ul> Unorder List (Lista no ordenada).
+<ol> Order List (Lista ordenada).
+<Li> Listitem (Item de la lista).
+
+<th> Son las columnas de una tabla.
+<tr> Son las filas de las tablas
+
+Varias páginas web conllevan a un sitio web.
+
+Tipos de variables{
+    Cuantitativas y Cualitativas.
+}
+Datos primitivos {
+    Strings, Bool, Float, Int.
+}
+
+Datos no primitivos {
+    Listas, Arrays, Diccionarios, Conjuntos, Tuplas y TAD's.
+}

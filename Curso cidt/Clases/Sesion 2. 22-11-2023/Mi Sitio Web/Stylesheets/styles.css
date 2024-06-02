@@ -1,0 +1,98 @@
+/* SELECTORES */
+
+
+/* Cuando se defina un id es importante también definir la clase. */
+/* El componente más interno tiene prioridad en la asignación de caracteristicas. */
+/* SELECTOR UNIVERSAL: Modifica todo componente de la página*/
+/* Ctrl + Space para el font-family: para ver las fuentes disponibles
+Hay dos tipos de letras: serif y sans serif, decoradas y no decoradas. */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+/*SELECTOR ETIQUETA*/
+
+/*Etiqueta <p>*/
+p {
+    /* Tamaño en puntos y Letras en pixeles */
+    font-size: 14pt;
+    font-style: italic; 
+    color: mediumblue;
+}
+
+/*SELECTOR ATRIBUTO*/
+
+/*Los href del <nav>, se habla de atributos.*/
+
+nav > [href]{
+    color: rgb(243, 84, 21);
+}
+
+/*SELECTOR CLASE*/
+
+/*class clase: clase = nombre de la clase. */
+.clase {
+    color: darkred;
+}
+
+/*SELECTOR IDENTIFICADOR*/
+
+/*Identificador id*/
+#Artículo_2 {
+    border-color: orangered;
+    color: green;
+}
+
+/*SELECTOR DESCENDIENTE*/
+
+/*Las <a> dentro de los <p>*/
+p a {
+    font-size: 11pt;
+    color: orchid;
+}
+
+/*SELECTORES COMBINADOS*/
+
+/*Las etiquetas <h2> y <h5>*/
+
+h2, h5 {
+    color: crimson;
+}
+
+/*SELECTOR DE HIJOS*/
+
+/*Los <li> hijos de un <ul>, se habla de etiquetas*/
+
+ul > li {
+    background-color: rgb(29, 177, 197);
+}
+
+ol > li {
+    background-color: chartreuse;
+}
+
+/* Estructura de los selectores se mueve respecto a la estructura padre-hijo de html
+BODY
+    HEADER
+    /HEADER
+    NAV
+    /NAV
+    MAIN
+        SECTION
+            P
+            /P
+            P
+            /P
+            TABLA
+            /TABLA
+            P
+            /P
+        /SECTION
+    /MAIN
+/BODY
+            
+Header y Nav son hermanos adyacentes, y con main son hijos de Body.
+Section es hijo de main.
+P, P, Tabla y P son hijos de section.
+P, P, Tabla y P son descendientes de Main.
+Y todos estos, y section son descendientes de header.*/
