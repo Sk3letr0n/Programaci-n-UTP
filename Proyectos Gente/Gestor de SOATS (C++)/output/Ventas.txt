@@ -1,0 +1,4 @@
+Marca: Suzuki Precio: 2000000 Fecha de venta: 1715734847 Cliente: Steven Grisales
+Marca: Harley Precio: 80000000 Fecha de venta: 1715736870 Cliente: Jacobo Cardenas
+Marca: Harley Precio: 80000000 Fecha de venta: 1715736967 Cliente: Mattiw Zapata
+Marca: AKT Precio: 5000000 Fecha de venta: 1715737500 Cliente: Jacobo Perez

@@ -1,0 +1,26 @@
+
+        
+        SUPERMERCADO CONSTRUYE FACIL
+             NIT. 69696969
+        REGIMEN SIMPLE TRIBUTACION
+            RESPONSABLE DE IVA
+             CIUDAD NIGHTCITY
+         CRA 8A- DEBAJO DEL PUENTE
+          TELEFONO: 312 6969696
+          
+        ---------------------------
+ codigo  producto  precio c/u
+ 1         manzana    2300      
+----------------------------------
+ total a pagar:     2300
+ subtotal:           1840.0
+ IVA:               460
+----------------------------------
+Metodo de pago: Tarjeta
+Total pagado: 2300
+Cambio: 0 pesos
+----------------------------------
+Fecha y hora:01/06/2024 23:14:32
+------------------------------
+
+Muchas gracias por su compra, feliz d�a

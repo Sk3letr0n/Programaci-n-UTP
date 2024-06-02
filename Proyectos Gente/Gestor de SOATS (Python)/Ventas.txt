@@ -1,0 +1,5 @@
+Marca: Toyota Precio: 500000 Fecha: 1717202493 Cliente: Juan Perez
+Marca: Nissan Precio: 450000 Fecha: 1717202632 Cliente: Steven Grisales
+Marca: Chevrolet Precio: 480000 Fecha: 1717202647 Cliente: Mattiw Zapatta
+Marca: Ford Precio: 470000 Fecha: 1717202657 Cliente: Jacobo Ramirez
+Marca: Nissan Precio: 450000 Fecha: 1717203259 Cliente: Miguel Lopez
