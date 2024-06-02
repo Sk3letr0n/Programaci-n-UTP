@@ -1,0 +1,1 @@
+La lista de solo cadenas es: ['taller', 'programación', 'utp', 'POO'].

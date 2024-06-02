@@ -1,0 +1,2 @@
+[['Pedro', 'Contador', 52], ['Alvaro', 'Economista', 48], ['Valeria', 'Contador', 35], ['Javier', 'Abogado', 55]]
+El elemento buscado fue: Contador y es par

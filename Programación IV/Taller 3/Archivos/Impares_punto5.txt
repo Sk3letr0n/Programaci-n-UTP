@@ -1,0 +1,1 @@
+La lista con impares reemplazados es: ['reemplazo', 'reemplazo', 'taller', 200, 'reemplazo', 'programación', 700, 'utp', 'POO'].

@@ -1,0 +1,40 @@
+
+Informacion de la sucursal:
+Codigo: S001
+Nombre: Sucursal Principal
+Direccion: 123 Calle Principal
+Telefono: 123-456-7890
+
+Informacion del empleado:
+Codigo: E001
+Nombre: Juan Perez
+Direccion: 456 Calle Secundaria
+Telefono: 987-654-3210
+ID de Empleado: 12345
+Salario Mensual: $5000
+Salario Anual: $60000
+
+Informacion del cliente:
+Codigo: C001
+Nombre: Maria Lopez
+Direccion: 789 Avenida Terciaria
+Telefono: 567-890-1234
+ID de Cliente: 67890
+
+Informacion de la cuenta:
+Codigo: CU001
+Nombre: Cuenta de Ahorros
+Direccion: 101 Calle Ahorrativa
+Telefono: 222-333-4444
+Numero de Cuenta: 98765
+Saldo Inicial: $1300
+
+Informacion de la tarjeta:
+Codigo: CU001
+Nombre: Cuenta de Ahorros
+Direccion: 101 Calle Ahorrativa
+Telefono: 222-333-4444
+Numero de Cuenta Asociada: 98765
+Saldo en la Tarjeta: $1000
+Numero de Tarjeta: 1234-5678-9012-3456
+Tipo de Tarjeta: Debito

@@ -1,0 +1,58 @@
+---------------------------------------------------------------------------
+Nombre: Tomï¿½s Marulanda.
+Edad: 21.
+Genero: Hombre.
+Valor de horas: $8475.
+Horas trabajadas: 2.
+Antiguedad: 1 aï¿½os.
+---------------------------------------------------------------------------
+El salario mensual de Tomï¿½s Marulanda es: 16950 pesos.
+A Tomï¿½s Marulanda le faltan 24 para cumplir el tiempo de antiguedad.
+El empleado paga en salud $678.0 y en pension $678.0, por lo tanto, al aï¿½o paga en pension $8136.0.
+
+---------------------------------------------------------------------------
+Nombre: Jonathan Gaviria.
+Edad: 20.
+Genero: Hombre.
+Valor de horas: $8475.
+Horas trabajadas: 200.
+Antiguedad: 20 aï¿½os.
+---------------------------------------------------------------------------
+El salario mensual de Jonathan Gaviria es: 1695000 pesos.
+A Jonathan Gaviria le faltan 5 para cumplir el tiempo de antiguedad.
+El empleado paga en salud $67800.0 y en pension $67800.0, por lo tanto, al aï¿½o paga en pension $813600.0.
+
+---------------------------------------------------------------------------
+Nombre: Sofia Jaramillo.
+Edad: 25.
+Genero: Mujer.
+Valor de horas: $8475.
+Horas trabajadas: 100.
+Antiguedad: 2 aï¿½os.
+---------------------------------------------------------------------------
+El salario mensual de Sofia Jaramillo es: 847500 pesos.
+A Sofia Jaramillo le faltan 23 para cumplir el tiempo de antiguedad.
+El empleado paga en salud $33900.0 y en pension $33900.0, por lo tanto, al aï¿½o paga en pension $406800.0.
+
+---------------------------------------------------------------------------
+Nombre: Camila Perez.
+Edad: 65.
+Genero: Mujer.
+Valor de horas: $8475.
+Horas trabajadas: 500.
+Antiguedad: 54 aï¿½os.
+---------------------------------------------------------------------------
+El salario mensual de Camila Perez es: 4237500 pesos.
+Camila Perez ya esta pensionada.
+El empleado paga en salud $169500.0 y en pension $169500.0, por lo tanto, al aï¿½o paga en pension $2034000.0.
+---------------------------------------------------------------------------
+Nombre: Laura.
+Edad: 21.
+Genero: Mujer.
+Valor de horas: $8475.
+Horas trabajadas: 120.
+Antiguedad: 4 años.
+---------------------------------------------------------------------------
+El salario mensual de Laura es: 1017000 pesos.
+A Laura le faltan 21 para cumplir el tiempo de antiguedad.
+El empleado paga en salud $40680.0 y en pension $40680.0, por lo tanto, al año paga en pension $488160.0.

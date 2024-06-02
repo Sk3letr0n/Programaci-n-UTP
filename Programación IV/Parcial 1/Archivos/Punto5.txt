@@ -1,0 +1,1 @@
+El kokakola cifrado con llave 6 es quqgqurg El kokakola descifrado con llave 9 es bfbrbfcr El hola cifrado con llave 2 es jqnc El jqnc descifrado con llave 2 es hola 

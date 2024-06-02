@@ -1,0 +1,1 @@
+['agua', 'esternocleidomastoideo', 'hola', 'luna', 'mondongo', 'pereza', 'programacion', 'zapato', '241', 'arracacha', 'morir', 'morir', 'oso', 'somnoliento', 'zanahoria']

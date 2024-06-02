@@ -1,0 +1,5 @@
+Nombre: Max, Edad: 3, Especie: Canino
+Nombre: Aquila, Edad: 5, Especie: Ave rapaz
+Nombre: Nemo, Edad: 1, Especie: Pez payaso
+Nombre: Toby, Edad: 10, Especie: Tortuga de tierra
+Nombre: Frodo, Edad: 2, Especie: Rana verde

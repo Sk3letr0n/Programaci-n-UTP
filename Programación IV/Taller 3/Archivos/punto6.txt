@@ -1,0 +1,6 @@
+Nombre: Juan
+Edad: 25
+Genero: Masculinos
+Cancion 
+sobre 
+piratas

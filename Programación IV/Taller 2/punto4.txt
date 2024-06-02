@@ -1,0 +1,47 @@
+Se ha cambiado el autor del libro a Laura Iba�ez.
+Se han a�adido 204 paginas al libro.
+Libro: Don Quijote de la Mancha, Laura Iba�ez, 2004, C�rculo de Lectores, Galaxia Gutenberg, 604
+
+La casa ha sido comprada.
+Se han a�adido 2 pisos a la casa y se ha modificado el tama�o de la construccion a: 1120.
+Casa: 5, 1120, 4, Calle 10 # 20-30, 1000000
+
+Se ha cambiado la duracion de la pelicula a 90.
+La pelicula dura 90, no te quedar�s dormido.
+Pelicula: El se�or de los anillos, Peter Jackson, 2001, Ficcion de Aventuras, 90
+
+Se ha a�adido el producto Nintendo Switch a la bodega y ha aumentado la cantidad de productos.
+El producto Peluche de Miku no se encuentra disponible.
+Bodega: Mesa tra', Calle 16 Av. 30 de Agosto, Abierto, ['Arroz', 'Frijoles', 'Aceite', 'Azucar', 'Sal', 'Nintendo Switch'], 6
+
+Se ha cambiado el color de la lampara a Azul.
+La lampara ha sido prendida.
+Lampara: Vidrio, Azul, De techo, 50000, Prendida
+
+Se ha cambiado el proveedor del modem a Movistar.
+La velocidad de transferencia es de 300 Mbps.
+Modem: Movistar, 300, WPA2, Ethernet, Activo
+
+Los bolsillos aumentaron a 8.
+El maletin se encuentra en perfecto estado.
+Maletin: Cuero, Negro, Mediano, 8, Perfecto
+
+El paciente se encuentra en la etapa 2 del cancer.
+El paciente ahora tiene Cancer de Seno.
+Paciente Oncologico: Rodrigo, 52, Cancer de Seno, Estable, 2
+
+El gato se encuentra en un peso saludable.
+Yoru ha venido a ti.
+Gato: Yoru, 5, Naranja con Blanco, Persa, 3
+
+Se ha cambiado la frecuencia a 5 GHz y la velocidad de transferencia a 1000 Mbps.
+Se ha cambiado el proveedor del router a ETB.
+Router: ETB, D7-A7-0F-E7-04-13, 1000, 5, Activo
+
+Los bolsillos aumentaron a 4.
+El maletin pierde la mitad de los bolsillos: 2.0.
+Maletin: Cuero, Negro, Mediano, 4, Perfecto
+
+Los bolsillos aumentaron a 10.
+El maletin pierde la mitad de los bolsillos: 5.0.
+Maletin: Cuero, Negro, Mediano, 5.0, Perfecto

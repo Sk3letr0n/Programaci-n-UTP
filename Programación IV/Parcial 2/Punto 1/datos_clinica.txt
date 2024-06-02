@@ -1,0 +1,32 @@
+Paciente: Viviana Lopez
+Edad: 26
+RUT: 1062252
+Sexo: M
+Peso: 59.0
+Altura: 165.0
+Fecha Primera Consulta: 22/02/2024
+Medico Tratante: Carlos Alberto Vanegas
+Especialidad Medico: Neurocirujano
+Precio Consulta: 60500.0
+
+Paciente: Jonathan
+Edad: 25
+RUT: 6102031
+Sexo: H
+Peso: 62.0
+Altura: 170.0
+Fecha Primera Consulta: 21/06/2020
+Medico Tratante: Luis
+Especialidad Medico: Cardiovascular
+Precio Consulta: 2500.0
+
+Paciente: Martin
+Edad: 21
+RUT: 61241
+Sexo: H
+Peso: 92.0
+Altura: 157.0
+Fecha Primera Consulta: 22/01/2021
+Medico Tratante: Alberto
+Especialidad Medico: Cirujano
+Precio Consulta: 5000.0

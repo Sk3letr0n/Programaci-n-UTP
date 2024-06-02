@@ -1,0 +1,28 @@
+El aviï¿½n Airbus 319 ha despegado.
+El aviï¿½n Airbus 319 ha aterrizado.
+Marca del aviï¿½n: Airbus, Modelo del aviï¿½n: 319, Capacidad de pasajeros: 156, Color del aviï¿½n: Blanco con Azul.
+
+Llamando al nï¿½mero 3052456442...
+Enviando mensaje al nï¿½mero 3116086466: Hola que tal soy colosal
+Marca del celular: Xiaomi, Modelo del celular: Redmi 12, Color del celular: Blanco, Sistema Operativo: Android.
+
+Estudiando la asignatura Programaciï¿½n...
+Presentando examen de la asignatura Programaciï¿½n...
+Nombre de la asignatura: Programaciï¿½n, Cï¿½digo de la asignatura: IS553, Cantidad de crï¿½ditos: 3, Intensidad horaria: 4 horas.
+
+El ejï¿½rcito ELN ha atacado.
+El ejï¿½rcito ELN se ha defendido.
+Nombre del ejercito: ELN, Tipo de divisiones: Infanteria, Cantidad de soldados: 20, Armamento de los soldados: AK47.
+
+Sentï¿½ndose en la silla Tailus GamerPRO...
+Recostï¿½ndose en la silla Tailus GamerPRO...
+Marca de la silla: Tailus, Modelo de la silla: GamerPRO, Material de la silla: Plï¿½stico, Color de la silla: Negra.
+
+Escuchando mï¿½sica con los audï¿½fonos Apple X-Max...
+Contestando llamada con los audï¿½fonos Apple X-Max...
+Marca de audï¿½fonos: Apple, Modelo de los audï¿½fonos: X-Max, Color de los audï¿½fonos: Blancos, Tipo de conexiï¿½n: Bluetooth.
+
+El ejército ELN ha atacado.
+El ejército ELN se ha defendido.
+Nombre del ejercito: ELN, Tipo de divisiones: Infanteria, Cantidad de soldados: 20, Armamento de los soldados: AK47.
+

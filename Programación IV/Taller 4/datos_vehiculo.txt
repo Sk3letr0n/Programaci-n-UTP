@@ -1,0 +1,26 @@
+Tipo de vehiculo: Auto, Marca: Chevrolet, Tipo de combustible: Extra.
+El vehiculo Hizo los siguientes viajes en el siguiente orden y tiempo:
+                          Bogota: 2.3333333333333335 horas.
+                          Medellin: 1.6666666666666667 horas.
+                          Cali: 2.9166666666666665 horas.
+                          Cartagena: 6.666666666666667 horas.
+                          Bucaramanga: 3.75 horas. 
+El costo mensual es de 1263666 pesos.
+
+Tipo de vehiculo: Camion, Marca: Toyota, Tipo de combustible: ACPM.
+El vehiculo Hizo los siguientes viajes en el siguiente orden y tiempo:
+                          Bogota: 2.772277227722772 horas.
+                          Medellin: 1.9801980198019802 horas.
+                          Cali: 3.4653465346534653 horas.
+                          Cartagena: 7.920792079207921 horas.
+                          Bucaramanga: 4.455445544554456 horas. 
+El costo mensual es de 3032800 pesos.
+
+Tipo de vehiculo: Moto, Marca: Mazda, Tipo de combustible: Corriente.
+El vehiculo Hizo los siguientes viajes en el siguiente orden y tiempo:
+                          Bogota: 3.2941176470588234 horas.
+                          Medellin: 2.3529411764705883 horas.
+                          Cali: 4.117647058823529 horas.
+                          Cartagena: 9.411764705882353 horas.
+                          Bucaramanga: 5.294117647058823 horas. 
+El costo mensual es de 1684888 pesos.

@@ -1,0 +1,12 @@
+Nombre del profesor: Ricardo
+Antigüedad del profesor: 18 años
+Sueldo del profesor: $6400
+Materias del profesor: Matemáticas, Física, Química
+Nombre del alumno: Steven
+Antigüedad del alumno: 1 años
+Carrera del alumno: Ingeniería Informática
+Promedio del alumno: 4.0
+Créditos aprobados por el alumno: 90
+Créditos totales del alumno: 120
+Nombre del profesor ayudante: Ana
+Tareas asignadas al profesor ayudante: Corrección de exámenes

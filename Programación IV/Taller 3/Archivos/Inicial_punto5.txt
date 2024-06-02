@@ -1,0 +1,1 @@
+La lista inicial es: [1, 1991, 'taller', 200, 3, 'programación', 700, 'utp', 'POO'].

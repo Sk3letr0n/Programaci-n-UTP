@@ -1,0 +1,3 @@
+Nombre: Almojabana, Cantidad: 51
+Nombre: Tomate, Cantidad: 29
+Nombre: Zapatos, Cantidad: 15

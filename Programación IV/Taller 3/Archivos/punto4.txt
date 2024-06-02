@@ -1,0 +1,14 @@
+Marca: Casio, Precio: 50000, Color: Negra, Tipo: Programable, Modelo: fx-82MS, Baterias: 4, Pantalla: LED, Memoria: 100GB, Teclas: 25, Garantia: 2 aï¿½os, Manual: 2 aï¿½os, Funciones: 12.
+El resultado de la suma es: 74
+El resultado de la resta es: 23
+El resultado de la multiplicación es: 126
+El resultado de la división es: 20.0
+El resultado de la potencia es: 16807
+El resultado de la raíz cuadrada es: 13.0
+El resultado de la raíz cúbica es: 18.404425526549282
+El resultado del logaritmo es: 6.416732282512326
+El resultado del seno es: 0.8414709848078965
+El resultado del coseno es: 1.0
+El resultado de la tangente es: 1.5574077246549023
+El resultado del factorial es: 31469973260387937525653122354950764088012280797258232192163168247821107200000000000000
+Marca: Casio, Precio: 50000, Color: Negra, Tipo: Programable, Modelo: fx-82MS, Baterias: 4, Pantalla: LED, Memoria: 100GB, Teclas: 25, Garantia: 2 años, Manual: 2 años, Funciones: 12.

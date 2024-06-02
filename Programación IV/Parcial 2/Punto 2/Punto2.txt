@@ -1,0 +1,2 @@
+Marca: papa, Modelo: 12d, Año: 123, placa: eqe432
+Marca: bb, Modelo: bb, Año: bb, placa: bb

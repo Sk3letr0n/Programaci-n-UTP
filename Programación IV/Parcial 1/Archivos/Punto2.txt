@@ -1,0 +1,3 @@
+Nombre: Steven, Documento: 1034289634, Edad: 29, Correo: mequieromorir@gmail.com, Telefono: 3116086466
+Nombre: Luis, Documento: 1089931169, Edad: 19, Correo: luis.garzon@utp.edu.co, Telefono: 3114225962
+Nombre: Rosas, Documento: 123, Edad: 51, Correo: sapito.gmail, Telefono: 515

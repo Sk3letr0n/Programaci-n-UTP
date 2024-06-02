@@ -1,0 +1,1 @@
+La lista de solo enteros es: [1, 1991, 200, 3, 700].

@@ -1,0 +1,17 @@
+La altura es 5, y la base es: 10
+**********
+**********
+**********
+**********
+**********
+El perï¿½metro del rectï¿½ngulo es 30.
+El ï¿½rea del rectï¿½ngulo es 50.
+
+La altura es 5, y la base es: 4
+****
+****
+****
+****
+****
+El perímetro del rectángulo es 18.
+El área del rectángulo es 20.
